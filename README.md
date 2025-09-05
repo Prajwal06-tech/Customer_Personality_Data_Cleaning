@@ -2,22 +2,27 @@
 
 ## 📌 Project Overview
 This task is part of my **Data Analytics Internship (Task 1)**, focusing on **data cleaning and preprocessing**.  
+
 The dataset used is the **Customer Personality Analysis dataset** from Kaggle, which contains demographic and spending behavior details of customers.  
+
 The objective was to **clean and prepare raw data** by handling missing values, removing duplicates, standardizing formats, and ensuring consistency across all fields.
 
 ---
 
 ## 📂 Dataset
+
 - **Source:** [Kaggle – Customer Personality Analysis](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis)  
 
 ---
 
 ## 🛠️ Tools Used
+
 - **Excel** → for data cleaning, missing value imputation, formatting.
 
 ---
 
 ## 🔑 Data Cleaning Steps
+
 1. **Imported dataset** using correct delimiter (`;`) in Excel.  
 2. **Handled missing values**:  
    - `Income` column had missing values.  
@@ -38,13 +43,14 @@ The objective was to **clean and prepare raw data** by handling missing values, 
 ---
 
 ## ✅ Deliverables
+
 - `customer_personality_cleaned.csv` → Cleaned dataset.   
 
 ---
 
 ## 📊 Summary of Changes
-- Missing `income` values replaced with median.  
-- X duplicate rows removed. *(fill in with actual number)*  
+
+- Missing `income` values replaced with median.   
 - Standardized text values (`Marital_Status `, Capitalized).  
 - Dates converted to proper format.  
 - Clean, consistent column naming convention applied.  
